@@ -19,9 +19,9 @@ For Pb-Pb collisions at √s_NN = 5.36 TeV (LHC Run 3).
 
 ## Structure
 - ml/          : FNO model, dataset parser, training scripts
-- vhlle_prod/  : HTCondor job scripts for vHLLE production
+- vhlle_prod/  : vHLLE production
 - optns/       : EPOS4 configuration
-- paper/       : PRC paper draft
+- paper/       : paper draft
 
 ## Data
 Large files (freezeout.dat, ic2D.dat, .hepmc) are on CERN EOS.
