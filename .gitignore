@@ -1,0 +1,37 @@
+# Large data files — on EOS/AFS not git
+output/*.hepmc
+vhlle_prod/output/
+*.hepmc
+*.dat
+*.npz
+*.root
+*.eps
+*.pdf
+
+# vHLLE compiled
+vhlle/obj/
+vhlle/hlle_visc
+vhlle/eos/
+vhlle/ic/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# Model checkpoints (large)
+ml/checkpoints/*.pt
+
+# HTCondor logs
+logs/
+*.log
+*.out
+*.err
+
+# Temp
+*.tmp
+*~
+.DS_Store
+z-*.clinput
+velocity_debug.txt

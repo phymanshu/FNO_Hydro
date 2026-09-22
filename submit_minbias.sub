@@ -1,0 +1,9 @@
+executable   = /afs/cern.ch/work/h/hsharma/epos4/run_epos.sh
+arguments    = $(ProcId)
+output       = /afs/cern.ch/work/h/hsharma/epos4/logs/job_$(ProcId).out
+error        = /afs/cern.ch/work/h/hsharma/epos4/logs/job_$(ProcId).err
+log          = /afs/cern.ch/work/h/hsharma/epos4/logs/condor_mb.log
++JobFlavour  = "longlunch"
+request_cpus = 1
+request_memory = 4GB
+queue 1000
