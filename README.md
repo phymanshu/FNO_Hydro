@@ -8,6 +8,11 @@ FNO trained on vHLLE viscous hydro events to learn the mapping:
 
 For Pb-Pb collisions at √s_NN = 5.36 TeV (LHC Run 3).
 
+
+## Pipeline diagram
+
+![FNO_Hydro pipeline](https://raw.githubusercontent.com/phymanshu/FNO_Hydro/main/fno_hydro_project_diagram.png)
+
 ## Key Results
 | Observable     | Value  |
 |----------------|--------|
