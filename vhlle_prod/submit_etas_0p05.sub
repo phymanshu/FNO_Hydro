@@ -1,0 +1,10 @@
+executable   = /afs/cern.ch/work/h/hsharma/epos4/vhlle_prod/run_etascan.sh
+arguments    = $(JOBID) $(B) $(ETAS)
+output       = /dev/null
+error        = /dev/null
+log          = /afs/cern.ch/work/h/hsharma/epos4/vhlle_prod/logs/etas_0p05.log
++JobFlavour  = "longlunch"
+request_cpus = 1
+request_memory = 2GB
+max_materialize = 50
+queue JOBID B ETAS from /afs/cern.ch/work/h/hsharma/epos4/vhlle_prod/queue_etas_0p05.txt

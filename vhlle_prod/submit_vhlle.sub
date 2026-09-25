@@ -1,0 +1,9 @@
+executable   = /afs/cern.ch/work/h/hsharma/epos4/vhlle_prod/run_vhlle.sh
+arguments    = $(ProcId) $(b)
+output       = /afs/cern.ch/work/h/hsharma/epos4/vhlle_prod/logs/job_$(ProcId).out
+error        = /afs/cern.ch/work/h/hsharma/epos4/vhlle_prod/logs/job_$(ProcId).err
+log          = /afs/cern.ch/work/h/hsharma/epos4/vhlle_prod/logs/condor.log
++JobFlavour  = "longlunch"
+request_cpus = 1
+request_memory = 2GB
+queue b from /afs/cern.ch/work/h/hsharma/epos4/vhlle_prod/b_values.txt

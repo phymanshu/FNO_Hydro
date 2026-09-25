@@ -35,3 +35,18 @@ logs/
 .DS_Store
 z-*.clinput
 velocity_debug.txt
+# junk files
+ml/cat
+ml/ls
+ml/eos/
+ml/hlle_visc
+ml/hsharma.cc
+ml/plots/
+vhlle_prod/hsharma.cc
+vhlle_prod/b_values_retry.txt
+vhlle_prod/retry_ids.txt
+vhlle_prod/b_etascan.txt
+vhlle_prod/queue_*.txt
+epos/
+zenodo_upload/
+zenodo_upload*.zip

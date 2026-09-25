@@ -1,0 +1,9 @@
+executable   = /afs/cern.ch/work/h/hsharma/epos4/vhlle_prod/run_vhlle_retry.sh
+arguments    = $(ProcId)
+output       = /afs/cern.ch/work/h/hsharma/epos4/vhlle_prod/logs/retry_$(ProcId).out
+error        = /afs/cern.ch/work/h/hsharma/epos4/vhlle_prod/logs/retry_$(ProcId).err
+log          = /afs/cern.ch/work/h/hsharma/epos4/vhlle_prod/logs/retry_condor.log
++JobFlavour  = "longlunch"
+request_cpus = 1
+request_memory = 2GB
+queue 1999

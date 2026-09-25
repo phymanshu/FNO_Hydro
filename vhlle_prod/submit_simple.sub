@@ -1,0 +1,9 @@
+executable   = /afs/cern.ch/work/h/hsharma/epos4/vhlle_prod/run_simple.sh
+arguments    = $(JOBID) $(B)
+output       = /afs/cern.ch/work/h/hsharma/epos4/vhlle_prod/logs/simple_$(JOBID).out
+error        = /afs/cern.ch/work/h/hsharma/epos4/vhlle_prod/logs/simple_$(JOBID).err
+log          = /afs/cern.ch/work/h/hsharma/epos4/vhlle_prod/logs/simple_condor.log
++JobFlavour  = "longlunch"
+request_cpus = 1
+request_memory = 2GB
+queue JOBID B from /afs/cern.ch/work/h/hsharma/epos4/vhlle_prod/queue.txt

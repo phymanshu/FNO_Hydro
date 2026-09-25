@@ -1,0 +1,10 @@
+executable   = /afs/cern.ch/work/h/hsharma/epos4/vhlle_prod/run_mcglauber.sh
+arguments    = $(JOBID) $(B) $(SEED)
+output       = /dev/null
+error        = /dev/null
+log          = /afs/cern.ch/work/h/hsharma/epos4/vhlle_prod/logs/mcglauber.log
++JobFlavour  = "longlunch"
+request_cpus = 1
+request_memory = 2GB
+max_materialize = 100
+queue JOBID B SEED from /afs/cern.ch/work/h/hsharma/epos4/vhlle_prod/queue_mcglauber.txt

@@ -1,0 +1,10 @@
+executable   = /afs/cern.ch/work/h/hsharma/epos4/vhlle_prod/run_mcglauber_etascan.sh
+arguments    = $(JOBID) $(B) $(SEED) $(ETAS)
+output       = /dev/null
+error        = /dev/null
+log          = /afs/cern.ch/work/h/hsharma/epos4/vhlle_prod/logs/mcglaub_etas_0p05.log
++JobFlavour  = "longlunch"
+request_cpus = 1
+request_memory = 2GB
+max_materialize = 50
+queue JOBID B SEED ETAS from /afs/cern.ch/work/h/hsharma/epos4/vhlle_prod/queue_mcglaub_etas_0p05.txt
